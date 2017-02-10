@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyTaskEnhance_09-FEB</string>
+
+    <string name="hint_num">number here</string>
+    <string name="spinner_hint">operator</string>
+    <string name="numbertype_toast">enter a 5-digit integer or less</string>
+    <string name="invalidinput_toast">Invalid input.</string>
+    <string name="spinnererror_toast">No item selected</string>
+    <string name="nooperator_toast">select operator!!</string>
+    <string-array name="spinner_operators">
+        <item>ADD</item>
+        <item>SUB</item>
+        <item>MUL</item>
+        <item>DIV</item>
+
+    </string-array>
+
+</resources>

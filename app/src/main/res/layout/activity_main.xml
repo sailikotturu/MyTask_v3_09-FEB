@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/relativelayout_paddingbottom"
+    android:paddingLeft="@dimen/relativelayout_paddingleft"
+    android:paddingRight="@dimen/relativelayout_paddingright"
+    android:paddingTop="@dimen/relativelayout_paddingtop"
+    tools:context="com.example.sailik.mytaskenhance_09_feb.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="@dimen/linearlayout_paddingtop"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/top_LinearLayout">
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="@string/hint_num"
+            android:inputType="number"
+
+            android:id="@+id/num1_editText"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:digits="0123456789-"
+            android:maxLength="5"
+            />
+
+
+        <Spinner
+            android:layout_width="@dimen/spinner_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spinner_margintop"
+
+            android:id="@+id/spinner_operators" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_num"
+            android:inputType="number"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/num2_editText"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:digits="0123456789-"
+            android:maxLength="5"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:text="CALCULATE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_margintop"
+        android:id="@+id/calculate_button"
+        android:layout_below="@+id/top_LinearLayout"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

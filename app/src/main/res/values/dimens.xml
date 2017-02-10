@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_margintop">60dp</dimen>
+
+    <dimen name="linearlayout_paddingtop">20dp</dimen>
+    <dimen name="relativelayout_paddingbottom">16dp</dimen>
+    <dimen name="relativelayout_paddingleft">64dp</dimen>
+    <dimen name="relativelayout_paddingright">64dp</dimen>
+    <dimen name="relativelayout_paddingtop">16dp</dimen>
+    <dimen name="spinner_width">80dp</dimen>
+    <dimen name="spinner_margintop">15dp</dimen>
+</resources>
